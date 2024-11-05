@@ -5,7 +5,24 @@ meta {
 }
 
 post {
-  url: http://localhost:3000/bootcamps
-  body: none
+  url: http://localhost:3000/reviews
+  body: json
   auth: none
+}
+
+headers {
+  Content-Type: application/json
+}
+
+body:json {
+  [{
+      "title": "Informative and interesting",
+      "comment": "A very informative book with plenty of interesting insights on the subject.",
+      "rating": 4
+    },
+    {
+      "title": "Average read",
+      "comment": "The book was okay. It had some good points but overall it felt a bit generic.",
+      "rating": 3
+    }]
 }
