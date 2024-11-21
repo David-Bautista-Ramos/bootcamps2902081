@@ -10,3 +10,5 @@ import {TypeOrmModule} from '@nestjs/typeorm';
   providers: [CoursesService],
 })
 export class CoursesModule {}
+
+// ghjksdfrijg 

@@ -50,6 +50,8 @@ export class Course {
     createdAt:Date
 }
 
+// ghjksdfrijg 
+
 enum minimumSkill{
     "Beginer", 
     "Intermediate",
